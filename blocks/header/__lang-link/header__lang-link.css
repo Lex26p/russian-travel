@@ -6,7 +6,7 @@
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: calc(18px + ((100vw - 320px) / 74.66));;
+  font-size: calc(18px + ((100vw - 320px) / 74.66));
   line-height: 1.1;
   text-align: right;
   color: #FFFFFF;

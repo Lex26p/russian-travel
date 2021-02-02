@@ -1,6 +1,6 @@
 .header__logo{
   width: calc(142px + ((100vw - 320px) / 13.17));
-  height: calc(42px + ((100vw - 320px) / 44,8));  /* Заморочился, чтоб было совсем плавный переход*/
+  height: calc(42px + ((100vw - 320px) / 44.8));  /* Заморочился, чтоб было совсем плавный переход*/
   background-image: url(../../../images/header-logo.svg);
   background-size: cover;
   transition: opacity 0.3s ease-out;
