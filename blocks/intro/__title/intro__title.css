@@ -1,0 +1,19 @@
+.intro__title{
+  margin: 0 0 32px 0;
+  padding: 0;
+  width: 70%;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: calc(32px + ((100vw - 320px) / 20.36));
+  line-height: 1.1;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 768px) {
+  .intro__title{
+    margin: 0 0 40px 0;
+    width: 100%;
+    font-size: 54px;
+  }
+}
