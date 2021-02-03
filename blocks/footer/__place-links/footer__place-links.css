@@ -1,0 +1,11 @@
+.footer__place-links{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__place-links{
+    display: flex;
+  }
+}
