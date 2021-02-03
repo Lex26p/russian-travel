@@ -1,0 +1,12 @@
+.footer__list-link{
+  margin: 0 0 32px 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__list-link{
+    margin: 0 18px 0 0;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
