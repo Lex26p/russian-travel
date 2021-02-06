@@ -5,16 +5,25 @@
   max-width: 1184px;
 }
 
+@media screen and (min-width: 480px) {
+  .footer{
+    width: calc(432px + 100vw - 480px);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .footer{
+    width: calc(720px + 100vw - 768px);
+	  max-width: 928px;
     display: flex;
     justify-content: space-between;
     margin: 90px auto 0 auto;
   }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1024px) {
   .footer{
-    width: calc(864px + 100vw - 960px);
+    width: calc(928px + 100vw - 1024px);
+	max-width: 1184px;
   }
 }

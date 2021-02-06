@@ -1,12 +1,20 @@
 .places{
   width: 100%;
-  max-width: 984px;
+  max-width: 720px;
   margin: calc(64px + ((100vw - 320px) / 18.66)) auto 0 auto;
 }
 
 @media screen and (min-width: 768px) {
   .places{
-    width: 90%;
+    width: calc(720px + 100vw - 768px);
+    max-width: 928px;
     margin: 90px auto 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places{
+    width: calc(928px + 100vw - 1024px);
+    max-width: 984px;
   }
 }
